@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/pwiecz/go-fltk"
+	"github.com/jghiloni/go-fltk"
 )
 
 type MyToggleButton struct {

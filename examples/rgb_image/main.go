@@ -4,7 +4,7 @@ import (
 	goimage "image"
 	"image/color"
 
-	"github.com/pwiecz/go-fltk"
+	"github.com/jghiloni/go-fltk"
 )
 
 func main() {

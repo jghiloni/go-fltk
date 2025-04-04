@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"strconv"
 
-	"github.com/pwiecz/go-fltk"
+	"github.com/jghiloni/go-fltk"
 )
 
 func main() {

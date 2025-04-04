@@ -1,7 +1,7 @@
 # go-fltk
 
 ---
-[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/pwiecz/go-fltk)
+[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/jghiloni/go-fltk)
 
 A simple wrapper around FLTK 1.4 library, which is a lightweight GUI library which allows creating small, self-contained and fast gui applications.
 
@@ -12,7 +12,7 @@ go-fltk comes with prebuilt FLTK libraries for some architectures (linux/amd64, 
 or build them for other architectures.
 To build FLTK libraries for your platform it should be enough to call `go generate` from the root of the go-fltk source tree.
 
-If the build procedure doesn't work for you, you can modify `fltk-build.sh` or `fltk-build.bat` yourself or ask a question on `https://github.com/pwiecz/go-fltk/discussions`.
+If the build procedure doesn't work for you, you can modify `fltk-build.sh` or `fltk-build.bat` yourself or ask a question on `https://github.com/jghiloni/go-fltk/discussions`.
 
 For running programs built using go-fltk you will need some system libs which are normally available on operating systems with a graphical user interfaces:
 - Windows: No external dependencies, besides a (for mingw64)
@@ -35,7 +35,7 @@ For running programs built using go-fltk you will need some system libs which ar
 ```go
 package main
 
-import "github.com/pwiecz/go-fltk"
+import "github.com/jghiloni/go-fltk"
 
 func main() {
     win := fltk.NewWindow(400, 300)
@@ -69,7 +69,7 @@ package main
 import (
 	"strconv"
 
-	"github.com/pwiecz/go-fltk"
+	"github.com/jghiloni/go-fltk"
 )
 
 // FLTK uses an RGBI color representation, the I is an index into FLTK's color map
@@ -137,7 +137,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/pwiecz/go-fltk"
+	"github.com/jghiloni/go-fltk"
 )
 
 func main() {
@@ -157,4 +157,4 @@ func main() {
 
 ## Resources
 - [Link](https://www.fltk.org/doc-1.4/index.html) to the official FLTK 1.4 documentation.
-- [Link](https://pkg.go.dev/github.com/pwiecz/go-fltk) to go-fltk documentation.
+- [Link](https://pkg.go.dev/github.com/jghiloni/go-fltk) to go-fltk documentation.

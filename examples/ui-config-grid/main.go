@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/pwiecz/go-fltk"
+	"github.com/jghiloni/go-fltk"
 )
 
 const (
